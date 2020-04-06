@@ -17,7 +17,11 @@ export default class Grid extends Component {
             }
         }
 
-        const forest = createForest(this.props.size, { minXSpacing: this.props.minXSpacing, minYSpacing: this.props.minYSpacing });
+        const forest = createForest(this.props.size, {
+            minXSpacing: this.props.minXSpacing,
+            minYSpacing: this.props.minYSpacing,
+            maxTries: this.props.maxTries
+        });
         forest.forEach(({ x, y }) => {
             this.grid[y][x] = 'tree';
         });

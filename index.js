@@ -20,7 +20,7 @@ class App extends Component {
             <div className="container">
                 <Controls onGenerate={options => this.onGenerate(options)} />
                 <div className="container__grid">
-                    <Grid size={this.state.gridSize} minXSpacing={this.state.minXSpacing} minYSpacing={this.state.minYSpacing} />
+                    <Grid size={this.state.gridSize} minXSpacing={this.state.minXSpacing} minYSpacing={this.state.minYSpacing} maxTries={this.state.maxTries} />
                 </div>
             </div>
         );
