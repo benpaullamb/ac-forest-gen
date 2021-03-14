@@ -46,7 +46,7 @@ See usage
 
 ## Usage
 
-This project is designed for desktop only. Due to potential security vulnerabilities this projects dependencies, this app is no longer up.
+This project is designed for desktop only. Due to potential security vulnerabilities in this projects dependencies, this app is no longer up.
 
 Running the generator will place green cells in the grid according to the algorithm and the configured settings. Re-create this layout in-game.
 
